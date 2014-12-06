@@ -307,10 +307,10 @@
                 </div>
                 <div class="form">
                     <div class="col-xs-12 col-sm-9 col-md-9 centered">
-                        <form action="http://www.sftheme.com/demos/one/send.php" onSubmit="return false;" id="xhr" method="post" name="contactform" class="contactform">
-                            <input type="hidden" value="contact" name="type"><input name="send[name]" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." data-validation="required"><input name="send[email]" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 no-margin" placeholder="Your email..." data-validation="email">
-                            <textarea name="send[message]" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..." data-validation="required"></textarea>
-                            <p><button class="submit sendcontact">SEND MESSAGE</button></p>
+                        <form onSubmit="return false;" id="xhr" name="contactform" class="contactform">
+                            <input type="hidden" value="contact" name="type"><input id="name" name="send[name]" type="text" class="col-xs-12 col-sm-6 col-md-6 col-lg-6" placeholder="Your name..." data-validation="required"><input id="email" name="send[email]" type="email" class=" col-xs-12 col-sm-6 col-md-6 col-lg-6 no-margin" placeholder="Your email..." data-validation="email">
+                            <textarea id="message" name="send[message]" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your message..." data-validation="required"></textarea>
+                            <p><button id="sendButton" class="submit sendcontact">SEND MESSAGE</button></p>
                         </form>
                         <p class="error"></p>
                     </div>
@@ -333,5 +333,33 @@
             </div>
         </footer>
         <script src="js/all.min.js"></script>
+        <script>
+            $('#sendButton').click(function () {
+                $('#sendButton').html('SENDING...');
+                $.ajax({
+                    type: 'POST',
+                    url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+                    data: {
+                        'key': 'Cxp5XwcFdLML84Xbt122Mw',
+                        'message': {
+                            'from_email': 'rahul080327@gmail.com',
+                            'to': [
+                                {
+                                    'email': 'rahul080327@gmail.com',
+                                    'name': 'heisenberg',
+                                    'type': 'to'
+                                }
+                            ],
+                            'autotext': true,
+                            'subject': 'New Message',
+                            'html': [$('#name').val(), '(', $('#email').val(), ') says: ', $('#message').val()].join('')
+                        }
+                    }
+                }).done(function(response) {
+                    $('#sendButton').html('SEND MESSAGE');
+                    alert("Thanks for mailing!");
+                });
+            });
+        </script>
     </body>
 </html>
