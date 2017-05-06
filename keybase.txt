@@ -1,1 +1,72 @@
-Proving to Keybase.
+==================================================================
+https://keybase.io/rahulde
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://damned.website
+  * I am rahulde (https://keybase.io/rahulde) on keybase.
+  * I have a public key with fingerprint AC83 35A1 FC06 3D39 BB71  DBD7 D695 9EE4 51EA 8C21
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010175b787db8064f9ff3d4f91111682c00e51cdc8fb42dd8efba873c970b8cd74c90a",
+            "fingerprint": "ac8335a1fc063d39bb71dbd7d6959ee451ea8c21",
+            "host": "keybase.io",
+            "key_id": "d6959ee451ea8c21",
+            "kid": "010175b787db8064f9ff3d4f91111682c00e51cdc8fb42dd8efba873c970b8cd74c90a",
+            "uid": "26a61cdf22a6731ecab905943e8fd719",
+            "username": "rahulde"
+        },
+        "service": {
+            "hostname": "damned.website",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1494080215,
+    "expire_in": 157680000,
+    "prev": "fd418eab11e307ec1139eda62ffd4ce84a5a8419baee05a325c71887be0dfaff",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtkmtMFFcUxxeoZVlBQUitSBGn5WGy1ZmdmZ0ZKK+GR2JtTVEMsLbLnZk77MC6
+u+wOKxasASnYNjQEPkCFlNAWhApBoUqBaqhppAjSyqM8lJQYqNWSGGSLxQ/Qu8R+
+68eeLzf33N//f885OVV+Xiq1RxL9QHU1r227x/BDXpXpN3uvCOOt4iksugjLg5sH
+NIvQoRjzZBGLxnACJxiaZ1hG5FlcT0mcJJEiOggUelYn4DikCUEUWImndKLIQokH
+LEMKHIPzrCAylMDhANNikmzJgXabXbYoyBYILEnSgJAEXE+KJMfzDCHyIiPqOZqD
+kKIJCFhBRyChyepwK1BxPHDA/bIV5dDFuFnef/D/c90Fm3Y6PdAjWtLpgJ4hCSgA
+nsNpjiIhK4kMwblBB7RbwAmIaDswFaAhYqe1GEo6ZQG65+pu5DkgghMWKO4/CXmH
+rEAkttmtilWwmtGbSVFs0W6pcsrmZhFkfO5i5GWLiOaIBE5od8hWCxZNIFJQZLct
+QXEUzuI6gtZisNAm26FRdhM0o2dxFO5voBNZSiJFsBBk8AQBSZyBAkGQHBSBXieh
+JwGyFKABSxEcDyDEaUDqaIEhWJbhIS5KQJIwd2P5FisWrUd1ghzk6ZBzLEApsKOu
+NR97hryg8lCrXtzi6d4wlcbH/9+1S3f4q+qP+vakBj8NmsqODzb6XJ9PJLznM2ea
+r3y7o+tYd1Z6g/K3z8+7SxTTWMxI6+rtyZnRjwzh05GNqumVBc9v/EYD2bDAyVfq
+zEeuxfaHLJ8sWH69ai9YqlxtKe7feKc4YCI2QftTxuOqmLRFsWMjqIMa1778xgOP
+RyHWm1EhZcGJg7umat7uKTXL6h8blkbqV0qeHLw85Ko8P1cZUdVbPzYUoakx9E18
+b/PCRM3csP1ifmh3R9IT43H512vjH0Z6XWhIeaYeDPgqviItsaT4r+yMm4fXPdZy
+YeKiKSA1ecvpuZzRL+4a4+4kFLKunfLn24z3Dy/P1lXEPuzUpiTtWfmj/daBmZc+
+a7nt22YIz69ovHO1tmG8z9fVWueqLZ+M26l5Nzfwy/o3nxmmkzvXNrZeXINJv1+q
+TdPeE8ya7vbe7B9K9zq9kkNn9xWtu5yhTPpu3HCgvEfuvX68+7faPYWdRXdXqfcX
+wsaatp8LGEk5U17WsjXhz6bqxfVtBqMzbqAzzPeTY81Lb9XeiPqg5NIU8M4cdsTX
+mI5qreZXH0fFF8vqtfCeapbLdZ3FB2K8b5SHZ0UEfb2r7L2BjMFWP28XF9Z+aKEt
+revR08ulQ0ZPpdn0y5Vi/8a+hLqJuqxk52vShUjbcqN37ooaHtLc+m5H15l9Ten9
+y/OD1Z8euX+W6B5JHae9/gE=
+=wbpk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rahulde
+
+==================================================================
