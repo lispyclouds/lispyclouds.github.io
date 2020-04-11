@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Simplicity by Design]]></title><description><![CDATA[Perspectives on empathy, sustainable living, technology, and simplicity]]></description><link>https://lispyclouds.de</link><image><url>https://lispyclouds.de/icons/icon-512x512.png</url><title>Simplicity by Design</title><link>https://lispyclouds.de</link></image><generator>GatsbyJS</generator><lastBuildDate>Sat, 11 Apr 2020 09:34:10 GMT</lastBuildDate><atom:link href="https://lispyclouds.de/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Minimal Simplicity]]></title><description><![CDATA[We need to be more minimal in every aspects to be more empathetic.]]></description><link>https://lispyclouds.de/Minimal-Simplicity</link><guid isPermaLink="false">https://lispyclouds.de/Minimal-Simplicity</guid><dc:creator><![CDATA[Rahul De]]></dc:creator><pubDate>Sat, 11 Apr 2020 00:00:00 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;title&quot;: &quot;Minimal Simplicity&quot;,
+  &quot;author&quot;: &quot;Rahul De&quot;,
+  &quot;date&quot;: &quot;2020-04-11T00:00:00.000Z&quot;,
+  &quot;hero&quot;: &quot;./media/empathy.jpg&quot;,
+  &quot;excerpt&quot;: &quot;We need to be more minimal in every aspects to be more empathetic.&quot;
+};
+
+var makeShortcode = function makeShortcode(name) {
+  return function MDXDefaultShortcode(props) {
+    console.warn(&quot;Component &quot; + name + &quot; was not imported, exported, or provided by MDXProvider as global scope&quot;);
+    return mdx(&quot;div&quot;, props);
+  };
+};
+
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item></channel></rss>
