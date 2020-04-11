@@ -1,0 +1,10 @@
+- name: Rahul De
+  bio: |
+    Diversity, Sustainable living, Clojure, Privacy.
+    they/he.
+    Consulting @thoughtworks
+  avatar: ./avatars/lispyclouds.png
+  featured: true
+  social:
+    - url: https://github.com/lispyclouds
+    - url: https://twitter.com/lispyclouds
